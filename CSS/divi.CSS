@@ -1,0 +1,25 @@
+/* Estilo para el contenedor del video */
+.div1{
+    position: relative;
+    width: 1180px;
+    height: 690px;
+    overflow: hidden; /* Evita que el video se desborde del contenedor al rotar */
+}
+
+/* Estilo para el video */
+#miVideo {
+    width: 100%;
+    height: 100%;
+    transform-origin: center center; /* Establece el punto de origen de la rotación en el centro del video */
+    animation: rotateVideo 10s linear infinite; /* Aplica la animación de rotación */
+}
+
+/* Animación de rotación */
+@keyframes rotateVideo {
+    from {
+        transform: rotate(0deg); /* Inicio de la rotación */
+    }
+    to {
+        transform: rotate(360deg); /* Final de la rotación (vuelve a 0 grados para hacerla continua) */
+    }
+}

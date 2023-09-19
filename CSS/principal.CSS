@@ -1,0 +1,190 @@
+body
+{
+  background-image: url(../imag/fondos/pared1.jpg);
+  margin: 10px auto;
+  font-family: "Roboto";
+  width: 80%;
+
+}
+header >h1
+{
+  font-family: "Impact";
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: rgb(251, 251, 248) 6px 6px 8px;
+
+  letter-spacing: 10px;
+
+
+}
+.texto-dorado {
+  color: rgba(215, 185, 15, 0.738); /* Nombre del color dorado */
+}
+
+.logoiz
+{
+
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+
+}
+.logoder
+{
+  float: right;
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+}
+header
+{
+  width: 100%;
+  overflow: hidden;
+  background-color:#000000ff;
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px;
+  border-style: none;
+
+}
+nav
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+nav ul
+{
+list-style: none;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 2.2em;
+}
+.boton
+{
+  background-color: #7f43ee;
+  color: #010217;
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  box-shadow: 0px 3px 5px #474a4a;
+  border-radius: 25px;
+}
+.boton:hover
+{
+  background-color: rgba(196, 120, 255);
+  box-shadow: 0px 03px 5px rgba(137, 18, 242);
+  padding-top: 7px;
+  color: #fff;
+
+}
+.boton img
+{
+width: 30px;
+height: 30px;
+padding-right: 10px;
+vertical-align: middle;
+}
+section
+{
+  float: left;
+  width: 70%;
+  text-align: justify;
+  margin-top: 10px;
+  color: hsl(0, 0%, 0%);
+}
+
+article {
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:rgb(5, 5, 1);
+}
+
+aside{
+  float:right;
+  width: 30%;
+  text-align:justify;
+  margin-top: 0px
+}
+blockquote{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #333333;
+}
+
+footer{
+  width: 100%;
+  overflow: hidden;
+  background-color:#000000ff;
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px 0px  25px 25px;
+  border-style: none;
+
+}
+.iz{
+  float: left;
+}
+
+.der{
+  float: right;
+  padding-right: 20px;
+}
+footer>p{
+  text-align: center;
+  color: #e3d9d9;
+  font-size: 10px;
+
+}
+.botonredes{
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  background-color: #333333;
+  border-radius: 100%;
+}
+.enlace-footer
+{
+  font-size: 10px;
+  color: rgba(189, 190, 189);
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.enlace-footer:hover
+{
+  color: rgb(139, 86, 239);
+  font-weight: bold;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+  text-decoration: underline;
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px;
+  background: rgb(223, 223, 216);
+  border-radius: 2em;
+  box-shadow: 0px 5px 3px rgb(0, 0, 0,0);
+}
+
+.contenido-centrado {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  /* Otros estilos de centrado si es necesario */
+}
